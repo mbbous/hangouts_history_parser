@@ -14,7 +14,7 @@ import os
 import json
 from datetime import datetime
 
-input_file = os.path.join('data_private', 'Hangouts.json')
+input_file = os.path.join('Data', 'Hangouts.json')
 output_dir = os.path.relpath('output')
 if not os.path.isdir(output_dir):
     os.mkdir(output_dir)
